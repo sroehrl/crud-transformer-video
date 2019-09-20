@@ -1,0 +1,69 @@
+{
+  "task": {
+    "id": {
+      "type": "binary(16)",
+      "key": false,
+      "nullable": true,
+      "default": false,
+      "a_i": false
+    },
+    "name": {
+      "type": "varchar(255)",
+      "key": false,
+      "nullable": true,
+      "default": false,
+      "a_i": false
+    },
+    "is_done": {
+      "type": "tinyint(1)",
+      "key": false,
+      "nullable": true,
+      "default": "0",
+      "a_i": false
+    },
+    "delete_date": {
+      "type": "datetime",
+      "key": false,
+      "nullable": true,
+      "default": false,
+      "a_i": false
+    }
+  },
+  "task_sub": {
+    "id": {
+      "type": "binary(16)",
+      "key": "primary",
+      "nullable": false,
+      "default": false,
+      "a_i": false
+    },
+    "task_id": {
+      "type": "binary(16)",
+      "key": false,
+      "nullable": true,
+      "default": false,
+      "a_i": false
+    },
+    "name": {
+      "type": "varchar(255)",
+      "key": false,
+      "nullable": true,
+      "default": false,
+      "a_i": false
+    },
+    "delete_date": {
+      "type": "datetime",
+      "key": false,
+      "nullable": true,
+      "default": false,
+      "a_i": false
+    },
+    "id_done": {
+      "type": "tinyint(1)",
+      "key": false,
+      "nullable": true,
+      "default": "0",
+      "a_i": false
+    }
+  }
+}

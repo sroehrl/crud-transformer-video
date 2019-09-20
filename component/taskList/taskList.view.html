@@ -1,0 +1,12 @@
+<h1>My tasks</h1>
+<n-template for="tasks as task">
+    <div class="task" id="task-{{task.id}}">
+        <button onclick="done('{{task.id}}')">check</button>
+        {{task.name}}
+    </div>
+</n-template>
+<h2>Crete new task</h2>
+<form  id="form">
+    <input type="text" id="new-task-name">
+    <input type="submit" value="create">
+</form>
