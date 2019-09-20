@@ -1,7 +1,10 @@
 # Complete code base for [neoan3 crud transformer tutorial](https://youtu.be/yFp2_SCXc9o)
 
 In case you had problems following along or are missing dependencies, here is the complete project *including the vendor folder*.
-The only change necessary on your end is to change the .htaccess RewriteBase accordingly.
+The only change necessary on your end is to change the 
+- .htaccess RewriteBase
+- db-credentials in frame/demo/Demo.php 
+ accordingly.
 
 Have fun learning.
 
