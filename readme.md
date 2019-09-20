@@ -1,3 +1,12 @@
+# Complete code base for [neoan3 crud transformer tutorial](https://youtu.be/yFp2_SCXc9o)
+
+In case you had problems following along or are missing dependencies, here is the complete project *including the vendor folder*.
+The only change necessary on your end is to change the .htaccess RewriteBase accordingly.
+
+Have fun learning.
+
+Original readme:
+
 # neoan3 PHP all purpose hybrid framework
 
 Rapid development, light-weight, lightning-fast, beginner-friendly yet limitlessly powerful? 
