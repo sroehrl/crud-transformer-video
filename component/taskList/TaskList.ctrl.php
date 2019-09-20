@@ -17,8 +17,8 @@ class TaskList extends Unicore
              ->output();
     }
     function getTasks($uni){
-        $this->tasks = TaskModel::find(['is_done'=>0]);
-        $this->tasks[0]['prerequisites'][] = ['name'=>'a sub task'];
+        $this->tasks = TaskModel::find(['is_done'=>false]);
+
         $uni->js .= 'let tasks = '. json_encode($this->tasks) . ';';
     }
 
