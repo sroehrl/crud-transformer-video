@@ -16,7 +16,7 @@ class Demo extends Serve
     {
         parent::__construct();
         define('db_assumes_uuid',true);
-        define('db_name','task');
+        define('db_name','db_app');
     }
 
     function constants()

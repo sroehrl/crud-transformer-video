@@ -4,6 +4,7 @@ In case you had problems following along or are missing dependencies, here is th
 The only change necessary on your end is to change the 
 - .htaccess RewriteBase
 - db-credentials in frame/demo/Demo.php 
+- run `neoan3 migrate models up`
  accordingly.
 
 Have fun learning.
