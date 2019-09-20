@@ -2,7 +2,7 @@
 #Options +FollowSymLinks
 RewriteEngine On
 
-RewriteBase /crud/
+RewriteBase /crud-transformer-video/
 
 
 # turn off www
